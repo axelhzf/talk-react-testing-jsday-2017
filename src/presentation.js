@@ -22,6 +22,7 @@ import 'prismjs/components/prism-core';
 import 'prismjs/components/prism-clike';
 import 'spectacle-theme-nova/syntax/prism-javascript';
 import 'spectacle-theme-nova/syntax/prism.nova.css';
+import './style.css';
 import createTheme from 'spectacle-theme-nova/bundle';
 import jest from './images/jest.svg';
 
@@ -390,6 +391,16 @@ cy.get('.todo-count').should('contain', '2 items left');
                 title="snapguidist"
               />
             </ListItem>
+          </List>
+        </Slide>
+        <Slide>
+          <Heading1>Thanks</Heading1>
+          <Heading1>
+            <Link href="http://twitter.com/axelhzf" title="@axelhzf"/>
+          </Heading1>
+          <List>
+            <ListItem><Link href="http://axelhzf.com/talk-react-testing-jsday-2017"/></ListItem>
+            <ListItem><Link href="https://github.com/axelhzf/talk-react-testing-jsday-2017-code"/></ListItem>
           </List>
         </Slide>
       </Deck>
