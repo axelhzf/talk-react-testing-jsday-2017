@@ -22,7 +22,7 @@ import 'prismjs/components/prism-core';
 import 'prismjs/components/prism-clike';
 import 'spectacle-theme-nova/syntax/prism-javascript';
 import 'spectacle-theme-nova/syntax/prism.nova.css';
-import createTheme from 'spectacle-theme-nova';
+import createTheme from 'spectacle-theme-nova/bundle';
 import jest from './images/jest.svg';
 
 const theme = createTheme('avon');
